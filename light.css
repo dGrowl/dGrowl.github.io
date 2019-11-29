@@ -1,4 +1,37 @@
 body {
-	font-size: 36px;
-	font-family: sans-serif;
+	font-family: Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {
+	margin-top:    16px;
+	margin-bottom: 16px;
+	line-height:   1.1em;
+}
+
+#header {
+	background-color: #333;
+	border-bottom: 4px solid #ed5028;
+	color: #fff;
+	font-size: 32px;
+	padding: 16px;
+	padding-left: 48px;
+}
+
+#name {
+	color: #ed5028;
+}
+
+#content {
+	margin-top:    32px;
+	margin-bottom: 32px;
+	margin-left:   auto;
+	margin-right:  auto;
+	width: 50%;
+	max-width: 540px;
+	min-width: 330px;
 }

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>dGrowl@GitHub</title>
+		<title>GitHub::dGrowl</title>
 		<link rel="icon" href="favicon.png">
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="light.css">
@@ -14,9 +14,68 @@
 		---><a href="http://dGrowl.github.io">Projects</a>
 		</div>
 		<div id="content">
-			<p>
-				Thanks for visiting! This is a home for the major personal projects that I've developed. Each was motivated by a blend of three reasons: to feed my own interest, to solve problems that I've encountered, and to learn about new tools that interested me. I dig into them whenever I have extra time to spend (which is usually between school quarters!).
-			</p>
+			<div id="blurb">
+				Thanks for visiting! This is a home for some of the major personal projects that I've developed. Each was motivated by a mixture of three reasons: to feed my own interest, to solve problems that I encountered, and to learn how to use new tools. I dig into these kinds of programs whenever I have extra time to spend (usually between school quarters).
+			</div>
+			<div class="project" id="hopslash">
+				<div class="project_header">
+					<a href="#hopslash"><div class="project_name">HopSlash</div></a>
+					<div class="project_tools">&nbsp;—&nbsp;C++, SDL, rapidjson</div>
+				</div>
+				<div class="project_body">
+					<div class="project_description">
+						<p>HopSlash is a demo game built on top of a custom engine that supports rendering, input, animations, and physics. The player controls a hero that can run, jump, and attack inside a side-scrolling world of platforms. I had learned a lot about SDL and wanted to explore using its capabilities with a real project. A major goal of the engine was for it to be as versatile as possible, so I stored settings, terrain, textures, and animation data in external files (using JSON because it was easy to prototype with and to edit by hand).</p>
+						<p>Art was done by the amazing <a href="https://rvros.itch.io/">rvros</a>.</p>
+						<p>
+							Repository: <a href="https://github.com/dGrowl/HopSlash">github.com/dGrowl/HopSlash</a><br>
+							Download (x64): <a href="#TODO">HopSlash_x64.zip</a>
+						</p>
+					</div>
+					<video class="project_demo_video" id="hopslash_video" controls autoplay loop>
+						<source src="videos/hopslash_test.mp4" type="video/mp4">
+						Your browser does not support the video tag!
+					</video>
+				</div>
+			</div>
+			<div class="project" id="shortseek">
+				<div class="project_header">
+					<a href="#shortseek"><div class="project_name">ShortSeek</div></a>
+					<div class="project_tools">&nbsp;—&nbsp;Python, Tkinter</div>
+				</div>
+				<div class="project_body">
+					<div class="project_description">
+						<p>ShortSeek is a Python script that generates optimal search terms for a given list of strings. It can be used from the command line (sseek.py) or from a GUI (ss_gui.py), and has a few different options used to configure its output. I wrote it because I was searching through a lot of lists and became curious to know what the shortest possible input strings would be to yield the results I was interested in. It can also load from (and write to) files. </p>
+						<p>
+							Repository: <a href="https://github.com/dGrowl/ShortSeek">github.com/dGrowl/ShortSeek</a><br>
+							Download: <a href="#TODO">ShortSeek.zip</a>
+						</p>
+					</div>
+					<video class="project_demo_video" id="shortseek_video" controls autoplay loop>
+						<source src="videos/shortseek_test.mp4" type="video/mp4">
+						Your browser does not support the video tag!
+					</video>
+				</div>
+			</div>
+			<div class="project" id="sdm">
+				<div class="project_header">
+					<a href="#sdm"><div class="project_name">SiteDeltaMonitor</div></a>
+					<div class="project_tools">&nbsp;—&nbsp;C++, Qt, gumbo</div>
+				</div>
+				<div class="project_body">
+					<div class="project_description">
+						<p>SiteDeltaMonitor runs quietly as a system tray icon, waiting to announce any detected changes to websites. It has separate windows that open for configuration and reporting. It targets URLs and can select specific HTML identifiers as well, thanks to the gumbo HTML parsing library. I wrote SDM because I wanted an alert whenever my favorite digital artists announced that they were accepting commissions.</p>
+						<p>
+							Repository: <a href="https://github.com/dGrowl/SiteDeltaMonitor">github.com/dGrowl/SiteDeltaMonitor</a><br>
+							Download (x64): <a href="#TODO">SDM_x64.zip</a>
+						</p>
+					</div>
+					<video class="project_demo_video" id="sdm_video" controls autoplay loop>
+						<source src="videos/sdm_test.mp4" type="video/mp4">
+						Your browser does not support the video tag!
+					</video>
+				</div>
+			</div>
 		</div>
+		<div id="footer">&copy; Copyright 2019. Created by GitHub::dGrowl.</div>
 	</body>
 </html>

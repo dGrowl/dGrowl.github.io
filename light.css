@@ -8,9 +8,7 @@ a {
 }
 
 p {
-	margin-top:    16px;
-	margin-bottom: 16px;
-	line-height:   1.1em;
+	margin: 10px;
 }
 
 #header {
@@ -19,19 +17,87 @@ p {
 	color: #fff;
 	font-size: 32px;
 	padding: 16px;
-	padding-left: 48px;
+	padding-left: 64px;
 }
 
 #name {
 	color: #ed5028;
 }
 
-#content {
+#blurb {
 	margin-top:    32px;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 	margin-left:   auto;
 	margin-right:  auto;
 	width: 50%;
 	max-width: 540px;
 	min-width: 330px;
+}
+
+#content {
+	margin-left:   auto;
+	margin-right:  auto;
+	width: 80%;
+}
+
+.project {
+	background-color: #333;
+	border: 16px solid white;
+	margin-top:    16px;
+	margin-bottom: 16px;
+	margin-left:   auto;
+	margin-right:  auto;
+	padding:   16px;
+	width:     70%;
+	max-width: 780px;
+	min-width: 330px;
+}
+
+.project_header {
+	display: flex;
+}
+
+.project_name {
+	color: #ed5028;
+	font-size: 20px;
+}
+
+.project_tools {
+	color: #fff;
+	font-size:   18px;
+	line-height: 20px;
+}
+
+.project_body {
+	padding: 4px;
+}
+
+.project_body a {
+	text-decoration: underline;
+}
+
+.project_demo_video {
+	display: block;
+	height:  auto;
+	margin-top:   24px;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 96%;
+}
+
+.project_description {
+	color: #fff;
+	margin: 8px;
+}
+
+.project_description p {
+	line-height: 1.1em;
+}
+
+#footer {
+	margin-left:  auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 16px;
+	font-family: monospace;
 }

@@ -102,3 +102,18 @@ p {
 	margin: 16px;
 	font-family: monospace;
 }
+
+ul.dash {
+	list-style: none;
+	margin-left: 24px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	padding-left: 1em;
+}
+
+ul.dash > li:before {
+	display: inline-block;
+	content: "–";
+	width: 1em;
+	margin-left: -1em;
+}
